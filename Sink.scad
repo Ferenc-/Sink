@@ -27,11 +27,10 @@ up(30) back(3) /* Excenter */ {
   difference () {
   union() {
      cube([8,40,14], anchor=[0,0,0]);
-     cylinder(h=14, d=15, anchor=[0,0,0]);
+     cylinder(h=14, d=16, anchor=[0,0,0]);
   }
-  // Is threading reliable?
-  threaded_rod(d=6, h=15, pitch=1.0, anchor=[0,0,0]);
- }
+  cylinder(h=16, d=8, anchor=[0,0,0]);
+  }
  }
 }
 
