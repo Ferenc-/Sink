@@ -1,3 +1,4 @@
+// BOSL2 from commit a6cdbe3db5d85bfa2f3549fd36b95371b0cc78ec
 include <BOSL2/std.scad>
 include <BOSL2/threading.scad>
     
